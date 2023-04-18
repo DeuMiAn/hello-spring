@@ -3,9 +3,11 @@
 <body>
 <div class="containder">
 
+<!--form 태그 값을 입력받을수있음 버튼에 submit이 발동하면 /members/new으로 post가 발동-->
     <form action="/members/new" method="post">
         <div class="from-group">
             <label for="name">이름</label>
+<!--input 태그에서 name에 값이 중요함 나중에 매핑되기때문-->
             <input type="text" id="name" name="name" placeholder="이름을 입력하세요">
         </div>
         <button type="submit">등록</button>
